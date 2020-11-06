@@ -63,5 +63,5 @@ jobs:
       with:
         username: ${{github.actor}}
         registry: docker.pkg.github.com
-        repository: perrybirch/github-actions-for-packages/tic-tac-toe
+        repository: perry-birch/github-actions-for-packages/tic-tac-toe
         tag_with_sha: true
