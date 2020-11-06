@@ -61,7 +61,5 @@ jobs:
     - name: Build container image
       uses: docker/build-push-action@v2
       with:
-        username: ${{github.actor}}
-        registry: docker.pkg.github.com
-        repository: perry-birch/github-actions-for-packages/tic-tac-toe
-        tag_with_sha: true
+        push: true
+        tags: foo/bar:latest
